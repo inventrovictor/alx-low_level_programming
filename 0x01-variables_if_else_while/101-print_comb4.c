@@ -6,22 +6,32 @@
  */
 int main(void)
 {
-int i, j, k;
+int n1 = 48;
+int n2, n3;
+int com = 44;
 
-for (i = 0; i < 10; ++i)
+while (n1 <= 57)
 {
-for (j = i + 1; j < 10; ++j)
+n2 = n1 + 1;
+while (n2 <= 57)
 {
-for (k = j + 1; k < 10; ++k)
+n3 = n2 + 1;
+while (n3 <= 57)
 {
-if (i != 7 || j != 8 || k != 9)
+putchar(n1);
+putchar(n2);
+putchar(n3);
+if (n1 != 55 || n2 != 56 || n3 != 57)
 {
-putchar(',');
-putchar(' ');
+putchar(com);
+putchar(32);
 }
+n3 =+ 1;
 }
+n2 =+ 1;
 }
-}
+n1 =+ 1;
+} 
 putchar('\n');
 return (0);
 }
