@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * jack bauer - prints out a 24 hour timer in military
+ * jack_bauer - prints out a 24 hour timer in military
  */
 void jack_bauer(void)
 {
